@@ -1,0 +1,29 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    background: url("/images/main_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.home{
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.text-center{
+    text-align: center;
+}
+
+a.go-to-menu{
+    text-decoration: none;
+    display: block;
+    color: red;
+    font-size: 24px;
+    margin: 20px 0px;
+}

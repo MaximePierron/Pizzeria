@@ -1,0 +1,61 @@
+﻿body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/images/menu_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial;
+    
+}
+
+img{
+    margin: 25px 35px;
+}
+
+div.pizzas_menu{
+    margin: 25px 0px;
+    color: white;
+    background-color: brown;
+    width: 20%;
+}
+
+div.pizzas_menu h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+div.pizza_menu_list {
+    margin: 50px;
+}
+
+div.pizza_menu_item {
+    color: white;
+    margin: 20px;
+    max-width: 500px;
+}
+
+
+span.pizza_ingredients{
+    margin: 10px 0px;
+}
+
+span.pizza_price{
+    margin: 0px 10px;
+    color: brown;
+}
+
+div.vegetarienne{
+    background-color: forestgreen;
+    max-width: 200px;
+    border-radius: 50px;
+}
+
+h5.pizza_vege{
+    display: block;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    padding:5px;
+    text-align: center;
+}

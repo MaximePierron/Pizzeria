@@ -1,0 +1,14 @@
+﻿@page
+@model pizzas_mama.Pages.Admin.IndexModel
+@{
+}
+
+@if (Model.DisplayInvalidAccountMessage)
+{
+    <h3 class="alert alert-danger" role="alert">Identifiants incorrects, veuillez réessayer.</h3>
+}
+<form method="post">
+    <input type="text" name="username" placeholder="Login">
+    <input type="password" name="password" placeholder="Mot de passe">
+    <button>Se connecter</button>
+</form>
